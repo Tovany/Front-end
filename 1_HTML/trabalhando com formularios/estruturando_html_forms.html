@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIO.me cadastro</title>
+    <style>
+        .row{
+            margin: 5px;
+        }
+        
+        label{            
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+
+        fieldset{
+            margin: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Formulário de cadastro</h1>
+
+    <fieldset>
+        <legend> Dados pessoais</legend>
+    
+        <div class ='row'>
+            <label> Nome:</label><input type="text" />
+            <label> Profissão:</label><input type="text" />
+        </div>
+
+        <div>
+
+            <label> E-mail:</label><input type="email" />
+            <label> Empresa:</label><input type="text" />
+        </div>
+    
+    </fieldset>
+    
+    
+    <fieldset>
+        <legend> Dados de endereço</legend>
+
+        <div class="row">
+            <label > Cidade/UF</label> <input type="text">
+            <label > Endereço: </label> <input type="text">
+            <label > Número: </label> <input style="width: 30px;" type="number" width=" 10">
+        </div>
+        
+    </fieldset>
+    
+    <fieldset>
+        <legend> Dados para contato</legend>
+        <div class="row">
+            <label> Git-hub: </label> <input type="url">
+            <label > Linkedin</label> <input type="url">
+            <label> N° de telefone</label><input type="number">
+        </div>
+
+    </fieldset>
+
+        <div class="row">
+            <button type="reset"> 
+                Limpar
+            </button> 
+            
+            <button type="submit"> 
+                Enviar
+            </button> 
+        </div>
+</body>
+</html>

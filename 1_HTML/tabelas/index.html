@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+        table thead th{
+            background-color: black;
+            color: white ;
+        } 
+        table tfoot td{
+            background-color: gray;
+        }
+
+        table tbody tr:nth-child(even) td{
+            background-color: aquamarine;
+        }
+        table tbody tr:hover td{
+            background-color:salmon;
+            cursor: pointer
+        }
+        
+    </style>
+</head>
+<body>
+    <table width = "250" align="Center" cellspacing = '0' cellpadding = "6">
+        <caption> Tabela aleatória</caption>
+        <thead>
+
+            <tr>
+                <th colspan="2"> Minha tabela lesa </th>
+               
+            </tr>
+
+            <tr>
+                <th title="Nome completo"> Nome </th>
+                <th> Idade </th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td> Assfas</td>
+                <td> 18</td>
+            </tr>
+            <tr>
+                <td>asdfasdsad</td>
+                <td> 19</td>
+            </tr>
+            <tr>
+                <td>h</td>
+                <td> 10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

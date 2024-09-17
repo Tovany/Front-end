@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agrupamento de seletores</title>
+
+    <style>
+
+        /* agrupamento por virgula: seleciona os que estão entre virgula  
+        Pode agrupar vários seletores*/
+        .mod_1, h1, p{
+            color: red;
+        }
+
+        .mod_2, #ref , [id /* ^ (Começa com algumac coisa. Prefixo)  */= botao]{
+            color: purple;
+        }
+
+        p.texto_5{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        /* Para uma tag especifica com uma classe específica, não usa separadores e sim tudo junto. */
+
+
+    </style>
+</head>
+<body>
+    <h1>Agrupamento de seletores</h1>
+    <p class = "mod_1">Texto 1</p>
+    <p class = "mod_2">Texto 2</p>
+    <p id="ref">Texto 3</p>
+    <p>Texto 4</p>
+    <p class = "texto_5">Texto 5</p>
+
+    <button id = "botao">apertar</button>
+
+</body>
+</html>

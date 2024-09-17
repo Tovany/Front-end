@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        a {
+            text-decoration: none; /* Remove o sublinhado */
+            color: rgb(255, 255, 255); /* Altera a cor do link */
+        }
+
+        /* Estilo para quando o link é visitado */
+        a:visited {
+            color: rgb(173, 252, 252);
+        }
+
+        /* Estilo para quando o link é focado ou hover */
+        a:hover, a:focus {
+            color: red; /* Altera a cor do link quando passa o mouse por cima ou é focado */
+        }
+
+        /* Estilo para quando o link é ativo (clicado) */
+        a:active {
+            color: green;
+        }
+    
+        .row{
+            margin: 5px;
+        }
+
+        input{
+            background-color: rgba(255, 255, 255, 0.257);
+            margin: 4px;
+        }
+
+        fieldset{
+            text-align: left;
+            margin: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+
+        <div class="menu">
+            <h1 style="font-size: 38px; color: rgb(201, 201, 201);">Página inicial</h1>
+            
+            <ul>
+                <li><a href="pagina_inical.html" target="_blank">Página Inicial</a></li>
+                <li><a href="sobre_clinica.html" target="_blank">Sobre a Clinica</a></li>
+                <li><a href="horaio_atendimento.html" target="_blank">Horário de atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+
+
+
+                <span>
+                    <img src="https://th.bing.com/th/id/R.8d572431a6edcdb50e74904d924c8c70?rik=QnCUFqTtQAcdRQ&riu=http%3a%2f%2fwww.portside.com.br%2fwp-content%2fuploads%2f2012%2f03%2fContato-Portside.png&ehk=2r0fJLkDtKoD9boCawHB%2bqYQRSrCr%2b%2btaSEhyo2otMw%3d&risl=&pid=ImgRaw&r=0" width="33%" height="65%">
+                </span>
+                
+                
+                <span>
+                    <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/05/Gr%C3%A1fico-Localiza%C3%A7%C3%A3o-PNG.png" width="33%" height="65%">
+                </span>
+                
+                
+                
+                <span>
+                    <img src="https://th.bing.com/th/id/OIP.mLAtKH-SCT6vJoDRrAIcwAHaHa?rs=1&pid=ImgDetMain" width="33%" height="65%">
+                </span>
+               
+
+
+                <span style="color: beige;font-size: 70px; padding-left: 36%; padding-top: 12%;">
+                     Contatos
+                </span>
+            </div>
+
+    
+            <div class="content">
+                <h3 style="font-size: 40px; text-align: center;"> Clinica Mais Saúde</h3>
+                <span>
+                    <h4 style="font-size: 25px ;"> Nossa clínica está localizada:</h4>
+                        <address>Av. Monsenhor Tabosa, 777 - Centro, Fortaleza - CE <br>
+                        </address>
+
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.394947879206!2d-38.51458669024714!3d-3.72374994313119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74844125e8e1b%3A0x348d9f5cc6744aa7!2sAv.%20Monsenhor%20Tabosa%2C%20777%20-%20Centro%2C%20Fortaleza%20-%20CE%2C%2060165-065!5e0!3m2!1spt-BR!2sbr!4v1722609297836!5m2!1spt-BR!2sbr" width=" 650" height="410" ;style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </span>
+
+                <h4 style="font-size: 25px ;">Tire suas dúvidas aqui</h4>
+                <p>Preencha o formulário abaixo</p>
+
+
+                <form action="#" method="get">
+
+                    <fieldset>
+                        <legend>Dados para contato</legend>
+                        <label> Nome: </label><input type="text">
+                        <label> Telefone para Contato: </label><input type="number">
+                        <br>
+                        <label> E-mail: </label><input type="email">
+                        
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Escolha o tipo de especialidade</legend>
+                        
+                        <input type="radio" name="especialidade"><label> Prevenção de doenças cardiovasculares</label> <br>
+                        <input type="radio" name="especialidade"><label> Reeducação alimentar</label><br>
+                        <input type="radio" name="especialidade"><label> Programa de atividades físicas</label><br>
+                        <input type="radio" name="especialidade"><label> Controlhe de hipertensão</label>
+                    </fieldset>
+                    <legend>Faça um pequeno texto sobre a razão da sua consulta</legend>
+                    <textarea name="raz" style="width: 100%; height: 200px; background-color: rgb(243, 242, 239);"></textarea>
+                </fieldset>
+            </fieldset>
+            
+            <div class="row">
+                <button type="reset"> 
+                    Limpar
+                </button> 
+                
+                <button type="submit"> 
+                    Enviar
+                </button> 
+            </div>
+        </form>
+            
+            
+            </div>
+    
+            <div class="footer">
+                <h2 style="font-size: 35px; text-align: right; padding-right: 8px;">Contatos</h2>
+                <p style="text-align: right; padding-inline-end: 10px;"> <strong>Email:</strong> CSaudeMais1@gmail.com</p>
+                <p style="text-align: right; padding-inline-end: 10px;"> <strong>Telefone:</strong> 92 1922-0978</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

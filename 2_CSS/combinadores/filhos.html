@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    div > p{
+        background-color: red;
+    }
+    div > p.filho_1{ /*É descendente direto da div*/
+        background-color: green;
+    }
+
+    p.exemplo_fora{
+        background-color: pink;
+    }
+
+    /*Define os irmãos que estão adjacente a eles*/
+    div.irmão p{
+        background-color: pink;
+    }
+
+    div.irmão + p{
+        color: red;
+    }
+
+    div.irmão ~ p{ /*Irmão geral*/  
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <h1>Combinadores</h1>
+    <h2>Combinadores filhos</h2>
+    
+    <p class=" paragrafo"> Ele é elemento que está dentro de uma tag</p>
+    <p class="exemplo_fora"> Ele é elemento que está dentro de uma tag</p>
+    
+    <div>
+        <p class = "filho_1">Esse é o filho 1 da div</p>
+        <p class = "filho_2">Esse é o filho 2 da div</p>
+        <p class = "filho_2">Esse é o filho 3 da div</p>
+    </div>    
+    
+    <p class="exemplo_fora">Esse não é filho de ninguém</p>
+    
+    <h2>Combinadores irmãos</h2>
+
+    <div class = "irmão">
+        <p>Eu sou o paragrafo 1</p>
+        <p>Eu sou o paragrafo 2</p>
+        <p>Eu sou o paragrafo 3</p>
+    </div>
+
+    <p> Eu sou o paragrafo 1 fora a div</p>
+    <p> Eu sou o paragrafo 2 fora a div</p>
+    <p> Eu sou o paragrafo 3 fora a div</p>
+</body>
+</html>

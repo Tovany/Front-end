@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+</head>
+<style>
+    /*Por tag*/
+    h1{
+        background-color: aquamarine;
+        color: blue;
+    }
+    p{
+        text-transform: uppercase;
+        font-weight:500;
+    }
+
+
+    
+    /* Por ID*/
+    #net{
+        color: green;
+    }
+    
+    /* Por class*/
+
+    .color{
+        color: red;
+    }
+
+    .font{
+
+        font-family:Arial;
+    }
+
+
+    /* Por atributo*/
+        /* As opções de input dentro são: =, ~=(aproximado do nome-procura a palavra exata separada por espaço),
+    |= (separado por hífen), 
+    
+    */
+    /*Pode ser só o atributo title, e ele pega todos os que tem esse atributo.*/
+    [title ="streaming"]{
+        font-size: 10px;
+    }
+/* Para links prefíxo */
+    [href /*usado para links o ^ busca prefixo- antes do link*/^= "http://"]{
+        font-size: 50px;
+    }
+
+    /* usando o sufixo $procura sufixo(depois do link https ou http)*/
+    [href $= "login"]{
+        font-style: italic;
+    }
+    /* Para achar a palavra em qualquer posição, usa-se o *= */
+    
+</style>
+<body>
+    <h1>Links para as plataformas de streaming</h1>
+    <p>Streaming passa filmes</p>
+
+    <ul>
+
+        <li><a title="streaming-tv"  id = "net" href="http://www.Netflix.com">Netflix</a></li>
+        <li><a id = "net" href="https://www.spoty/login">Spotify</a></li>
+        <li><a class = "font color" href="">Prime video</a></li>
+        <li><a class="color">Canvas</a></li>
+        <li><a title="streaming">Github</a></li>
+    </ul>
+</body>
+</html>

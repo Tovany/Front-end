@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        a {
+            text-decoration: none; /* Remove o sublinhado */
+            color: rgb(255, 253, 253); /* Altera a cor do link */
+        }
+
+        /* Estilo para quando o link é visitado */
+        a:visited {
+            color: rgb(173, 252, 252);
+        }
+
+        /* Estilo para quando o link é focado ou hover */
+        a:hover, a:focus {
+            color: red; /* Altera a cor do link quando passa o mouse por cima ou é focado */
+        }
+
+        /* Estilo para quando o link é ativo (clicado) */
+        a:active {
+            color: green;
+        }
+
+        table {
+            border: solid 1px rgb(161, 161, 161);
+            border-collapse: collapse;
+            width: 100%;
+            
+        }
+
+        td {
+            text-align: left;
+            padding: 8px;
+            text-align: left;
+            font-size: 18px;
+        }
+
+        th {
+            text-align: left;
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white; 
+        }
+
+
+
+
+        tr:nth-child(even) td{
+            background-color: #c8c8c8;
+        }
+        tr:hover {
+            color: #0b6a89;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+
+        <div class="menu">
+            <h1 style="font-size: 38; color: rgb(201, 201, 201);">Página inicial</h1>
+            
+            <ul>
+                <li><a href="pagina_inical.html" target="_blank">Página Inicial</a></li>
+                <li><a href="sobre_clinica.html" target="_blank">Sobre a Clinica</a></li>
+                <li><a href="horaio_atendimento.html" target="_blank">Horário de atendimento</a></li>
+                <li><a href="contato.html" target="_blank">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://media.istockphoto.com/id/1295912770/pt/vetorial/illustration-image-of-doctor-at-clinic.jpg?s=170667a&w=0&k=20&c=VaGfQBr5ESH6pWhZJrgD2t8f2UiG7AJBg_dEI4nUjh8=" width="50%" height="100%">
+                
+                
+                <h2 style="font-size: 47px;display: inline;color: rgb(0, 0, 0);"> Horário de atendimento</h2>
+                    
+                
+            </div>
+            
+    
+            <div class="content" style="padding-top: 90px;" >
+                <table>
+                    <tr>
+                      <th>Dias</th>
+                      <th>Horários</th>
+                      <th>Benefício</th>
+                      <th>Descrição</th>
+                    </tr>
+                    <tr>
+                      <td>Segunda-Feira</td>
+                      <td>08:20 às 16:00</td>
+                      <td>Prevenção de doenças cardiovasculares</td>
+                      <td>Adote hábitos saudáveis e previna doenças do coração.</td>
+                    </tr>
+                    <tr>
+                      <td>Terça-Feira</td>
+                      <td>08:20 às 16:00</td>
+                      <td>Reeducação alimentar</td>
+                      <td>Aprenda a ter uma alimentação saudável e balanceada para o coração.</td>
+                    </tr>
+                    <tr>
+                      <td>Quarta-Feira</td>
+                      <td>08:20 às 16:00</td>
+                      <td>Programa de atividade física</td>
+                      <td>Prática exercícios físicos de forma segura e eficaz.</td>
+                    </tr>
+                    <tr>
+                      <td>Quinta-Feira</td>
+                      <td>08:20 às 16:00</td>
+                      <td>Controle da hipertensão</td>
+                      <td>Mantenha a pressão arterial sob controle para prevenir complicações.</td>
+                    </tr>
+                </table>
+                  
+            </div>
+    
+            <div class="footer">
+                <h2 style="font-size: 35px; text-align: right; padding-right: 8px;">Contatos</h2>
+                <p style="text-align: right; padding-inline-end: 10px;"> <strong>Email:</strong> CSaudeMais1@gmail.com</p>
+                <p style="text-align: right; padding-inline-end: 10px;"> <strong>Telefone:</strong> 92 1922-0978</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
