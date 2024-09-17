@@ -6,14 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+
+a { color:blue; text-decoration: none;}
+p{
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+}
+figure {
+    text-align: left;
+}
+
+iframe{
+    width: 310px;
+    height: 190px;
+    padding: 25px;
+    margin-left: 90px;
+}
+i{
+    font-family:cursive;
+    font-weight: 100;
+    
+}
+
+section ol li{
+    font-weight: 700;
+
+}
+table{
+    box-shadow: -16px 17px 9px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -16px 17px 9px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -16px 17px 9px -11px rgba(0,0,0,0.75);
+}
+
+table td figure img{
+    width: 200px;
+    height: 155px;
+    
+}
+    </style>
 </head>
 <body>
 
     <header>
         <h1>Super Mário</h1>
         <figure>
-            <img src="/new_wikipedia/css/imagens/video_1.gif" alt="Imagem tema: Super Mário" width="230px">
-            <img src="/new_wikipedia/css/imagens/intro.jpg" height="200px" width="730px">
+            <img src="/1_HTML/New_layout_wikipedia/css/imagens/video_1.gif" alt="Imagem tema: Super Mário" width="230px">
+            <img src="/1_HTML/New_layout_wikipedia/css/imagens/intro.jpg" height="200px" width="730px">
         </figure>
     </header>  
 
@@ -29,8 +106,9 @@
                     <li><a href="pagina_inicial.html" target="_blank">Página principal</a></li>
                     <li><a href="jogos.html" target="_blank">Plataforma de jogos</a></li>
                 </ol>
+
                 <figure>
-                    <img src="/new_wikipedia/css/imagens/box.jpg" width="150px">
+                    <img src="/1_HTML/New_layout_wikipedia/css/imagens/box.jpg" width="150px">
                 </figure>
             </nav>
         </aside>
