@@ -18,3 +18,7 @@ Neste repositório, você encontrará:
 
 ### *observação:*
 - O curso está em andamento, então, aos poucos irei adicionando os novos assuntos
+
+## 📄 Licença
+
+Este projeto é de uso livre e aberto para todos.

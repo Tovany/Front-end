@@ -31,3 +31,7 @@ Este repositório contém todos os meus estudos e exemplos práticos relacionado
 
 - **Editor de Código**: Visual Studio Code
 - **Navegador**: Edge ou qualquer outro navegador atualizado
+
+## 📄 Licença
+
+Este projeto é de uso livre e aberto para todos.

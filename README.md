@@ -21,3 +21,4 @@ Sinta-se à vontade para explorar e acompanhar minha evolução!
 ## Ferramentas utilizadas⚙️
 - **Editor de Código**: Visual Studio Code(VSCode) 📃
 - **Navegador**: Navegador Edge(Microsoft)🌍
+- **Ambiente de execução:** Node.js (opcional para testar código fora do navegador)
