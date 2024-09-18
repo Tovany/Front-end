@@ -23,3 +23,4 @@
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
 4_Certificados/
+.vscode
