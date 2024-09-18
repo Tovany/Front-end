@@ -25,3 +25,9 @@ Este repositório contém todos os meus estudos e exemplos práticos relacionado
 - **Novo layout do wikipedia** *New_layout_wikipedia* 📃: Uma página simples que tenta dar uma repaginação a estrutura do HTML
 
 - **Site para empresa de saúde** *Health_Website* 🩺💊: Site destinado a uma clínica de saúde ficticia, no qual nela há a interação entre páginas onde você poder ver: sobre a clinica, horário de atendimento, contato e página inicial.
+
+
+## 🛠 Ferramentas Utilizadas
+
+- **Editor de Código**: Visual Studio Code
+- **Navegador**: Edge ou qualquer outro navegador atualizado

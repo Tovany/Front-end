@@ -10,11 +10,11 @@ Neste repositório, você encontrará:
 - **Combinadores**: Demonstração de como utilizar combinadores de CSS, como descendente (` `), filho (`>`), adjacente (`+`), e irmão geral (`~`).
 - **Cores**: Aplicação de cores em elementos HTML utilizando diferentes formatos de cor (nomes de cor, hexadecimal, RGB, RGBA, HSL, etc.).
 
-## 🚀 Objetivos do Projeto
 
-- Compreender e utilizar seletores CSS para estilizar elementos específicos.
-- Aplicar combinadores para definir relações entre elementos e estilizar com precisão.
-- Aprender as diferentes formas de definir cores em CSS e aplicá-las de maneira consistente.
+## 🛠 Ferramentas Utilizadas
+
+- **Editor de Código**: Visual Studio Code
+- **Navegador**: Edge ou qualquer outro navegador atualizado
 
 ### *observação:*
 - O curso está em andamento, então, aos poucos irei adicionando os novos assuntos
